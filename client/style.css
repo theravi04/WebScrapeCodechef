@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.dark-mode {
+    background-color: #000;
+    color: #fff;
+}
+
+.content {
+    text-align: center;
+}
+
+.request-box {
+    background-color: #222;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+.request-title {
+    margin: 0;
+    font-size: 28px;
+    color: #ff9900;
+    margin-bottom: 15px;
+}
+
+.username-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.send-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #ff9900;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.send-button:hover {
+    background-color: #ffcc66;
+}
+
+/* appended child */
+
+.request-box {
+    background-color: #222;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+.request-title {
+    margin: 0;
+    font-size: 28px;
+    color: #ff9900;
+    margin-bottom: 15px;
+}
+
+.user-info {
+    text-align: left;
+    color: #fff;
+}
+
+.user-info p {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
