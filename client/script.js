@@ -16,6 +16,7 @@ function sendreq() {
       }, 500);
     }, 500);
   }, 1500);
+  
   fetch(`http://localhost:4000/`, {
     method: "POST",
     headers: {
