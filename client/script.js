@@ -36,14 +36,16 @@ function sendreq() {
     })
     .then((data) => {
       console.log(data);
-      main.innerHTML = `<div class="content">
-    <div class="request-box">
-        <h1 class="request-title">User Profile</h1>
+      main.innerHTML = `<h1 class="top">CodeChef Web Scrape</h1>
+      <div class="content">
+      <div class="request-box">
+      <h1 class="request-title">Competitive Programmer: @${data.userId}</h1>
         <div class="user-info">
             <p><strong>User ID:</strong>${data.userId}</p>
             <p><strong>User Rating:</strong>${data.userRating}</p>
             <p><strong>User Stars:</strong> ${data.userStar}</p>
         </div>
+        <p class="website-link"><a href="https://www.codechef.com/users/${data.userId}" target="_blank"><strong>Visit my CodeChef profile</strong></a></p>
     </div>
 </div>`;
     })
